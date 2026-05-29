@@ -1,5 +1,6 @@
 package models;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;
 
 @Getter
@@ -21,6 +22,7 @@ public class Ingredient {
     private String image;
     private String image_mobile;
     private String image_large;
-    private int __v;
+    @JsonProperty("__v")
+    private int v;
 
 }
