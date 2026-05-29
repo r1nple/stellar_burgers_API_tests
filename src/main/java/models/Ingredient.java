@@ -10,8 +10,8 @@ import lombok.*;
 @EqualsAndHashCode
 @ToString
 public class Ingredient {
-
-    private String _id;
+    @JsonProperty("_id")
+    private String id;
     private String name;
     private String type;
     private int proteins;
