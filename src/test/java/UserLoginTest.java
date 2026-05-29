@@ -1,4 +1,4 @@
-import ApiClient.UserClient;
+import api.client.UserClient;
 import generators.UserGenerators;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;

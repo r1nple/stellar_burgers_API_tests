@@ -1,4 +1,4 @@
-package ApiClient;
+package api.client;
 
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;

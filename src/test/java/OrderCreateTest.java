@@ -1,5 +1,5 @@
-import ApiClient.OrdersClient;
-import ApiClient.UserClient;
+import api.client.OrdersClient;
+import api.client.UserClient;
 import generators.IngredientGenerators;
 import generators.UserGenerators;
 import io.qameta.allure.Description;

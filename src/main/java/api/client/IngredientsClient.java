@@ -1,4 +1,4 @@
-package ApiClient;
+package api.client;
 
 import constants.Endpoints;
 import io.restassured.response.Response;
